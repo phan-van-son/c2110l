@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EasyJobs4You</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.row
+		{
+			display: flex;
+		}
+		label
+		{
+			width: 200px;
+			height: 20px;
+			float: left;
+			padding-left: 10px;
+			padding-top: 10px;	
+		}
+		button {
+			margin-left: 20px;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		Registration Form - Job Seekers
+	</h1>
+	<div class="row">
+		<label>
+			Login Name:
+		</label>
+		<input type="text" name="LoginName">
+	</div>
+	<div class="row">
+		<label>
+			Password:
+		</label>
+		<input class="Password" type="Password" name="Password">
+	</div>
+	<div class="row">
+		<label>
+			Re-enter Password:
+		</label>
+		<input type="Password" name="Password">
+	</div>
+	<div class="row">
+		<label>
+			Gender
+		</label>
+		<input type="radio" name="Gender">
+		Male
+		<input type="radio" name="Gender">
+		Female
+	</div>
+	<div class="row">
+		<label>
+			Experience (In Years):
+		</label>
+		<select>
+			<option>Select...</option>
+			<option>0-1</option>
+			<option>1-2</option>
+			<option>2-3</option>
+			<option>3+</option>
+		</select>
+	</div>
+	<a href="thankyou.html"><button>Register</button></a>
+	<button>Cancel</button>
+</body>
+</html>
