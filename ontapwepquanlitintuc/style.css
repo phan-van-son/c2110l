@@ -1,0 +1,82 @@
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+.logo{
+	color: white;
+	background-color: red;
+	padding:  10px 20px 1px 5px ;
+	margin-left: 30px;
+	font-size: 20px;
+	width:8%;
+}
+.menu1{
+	
+	background-color: lightblue;
+	padding-top: 1px;
+}
+.menu1 ul {
+	display: flex;
+	
+	padding-left: 10%;
+	background-color: #448ac1;
+	 
+
+
+}
+.menu1 ul li{
+	color: white;
+	background-color: #448ac1;
+	list-style-type: none;
+	border-right: solid 1px white;
+	padding-left: 8px;
+	padding-right: 12px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+.menu1 ul li:hover{
+background-color: lightblue;
+}
+.main{
+	margin-left: 10px;
+	width: 80%;
+}
+.input{
+	border: solid 5px black;
+	padding-right: 60px;
+}
+.input2{
+	border: solid 5px black;
+	padding-bottom: 100px;
+	padding-right: 60px;
+
+}
+.button{
+
+	  padding: 3px 1px 8px 10px;
+	 
+
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	   
+	  text-decoration: none;
+	   
+	  font-size: 16px;
+	  margin-top: 10px;
+	  margin-right: 42px;
+
+	  
+}
+.menu2{
+	width: 20%;
+
+}
+.menu2 ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 20px;
+}

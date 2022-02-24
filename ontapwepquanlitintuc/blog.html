@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web tin tuc</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="head">
+		<div style="display: flex;width: 100%; margin-top: 20px;margin-bottom: 10px;">
+			<div class="logo">LOGO</div>
+			<div style="color: grey;margin: 0px auto;">Web tin tuc</div>
+		</div>
+		<div class="menu1">
+			
+			<ul>
+				<li>TRANG CHU</li>
+				<li>TIN HOC</li>
+				<li>BIEU MAU</li>
+				<li>KHOA HOC</li>
+				<li>TUYEN DUNG</li>
+				<li>LIEN HE</li>
+			</ul>
+
+		</div>
+	</div>
+
+<b>
+		<div style="display: flex;">
+		<div class="main">
+			
+				 <div style="margin-left: 10px">
+				 	
+				 <h3>NOI DUNG BAI VIET</h3>
+				 <br>
+				 <p id="tdshow">
+				 	
+				 </p>
+				 <img src="" id="imgshow">
+				 <p id="nnshow">
+				 	
+				 </p>
+
+
+
+
+
+				 </div>
+
+		</div>
+	
+				<div class="menu2">
+
+						 <div style="border: solid 5px black;width: 80%">
+						 	<div style="margin-left: 10px">
+
+						 		
+						 		<h3>BAI VIET MOI NHAT</h3>
+
+
+						<br>
+
+						<ul>
+							<li>BAI 1</li>
+							<li>BAI 2</li>
+							<li>BAI 3</li>
+							<li>BAI 4</li>
+							<li>BAI 5</li>
+							<li>BAI 6</li>
+						</ul>
+						 	</div>
+						 </div>
+				
+				</div>
+	</div>
+
+
+</b>
+
+
+<script type="text/javascript">
+	document.getElementById("tdshow").innerHTML=localStorage.getItem("tieude");
+	document.getElementById("imgshow").src=localStorage.getItem("anh");
+	document.getElementById("nnshow").innerHTML=localStorage.getItem("noidung");
+</script>
+</body>
+</html>

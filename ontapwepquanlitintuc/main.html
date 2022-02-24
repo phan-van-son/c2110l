@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web tin tuc</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="head">
+		<div style="display: flex;width: 100%; margin-top: 20px;margin-bottom: 10px;">
+			<div class="logo">LOGO</div>
+			<div style="color: grey;margin: 0px auto;">Web tin tuc</div>
+		</div>
+		<div class="menu1">
+			
+			<ul>
+				<li>TRANG CHU</li>
+				<li>TIN HOC</li>
+				<li>BIEU MAU</li>
+				<li>KHOA HOC</li>
+				<li>TUYEN DUNG</li>
+				<li>LIEN HE</li>
+			</ul>
+
+		</div>
+	</div>
+
+<b>
+		<div style="display: flex;">
+		<div class="main">
+			
+				<form onsubmit="cblog()">
+					<h3>NHAP THONG TIN BAI VIET</h3>
+					<h3>TIEU DE</h3>
+						<input type="text"  id="td" class="input" minlength="10" maxlength="200">
+
+					<h3>HINH ANH</h3>
+						<input type="text"  id="img" class="input" minlength="5" maxlength="500">
+
+					<h3>NOI DUNG</h3>
+						<input type="text"  id="nn" class="input2" minlength="10" maxlength="500">
+
+
+
+				<div >
+					<button style="background-color: orange;color: #4d2600" class="button" type="submit">LUU</button>
+					<button style="background-color:red" class="button" type="reset">XOA</button>
+				</div>
+				</form>
+
+		</div>
+	
+				<div class="menu2">
+
+						 <div style="border: solid 5px black;width: 80%">
+						 	<div style="margin-left: 10px">
+
+
+						 		<h3>BAI VIET MOI NHAT</h3>
+
+
+						<br>
+
+						<ul>
+							<li>BAI 1</li>
+							<li>BAI 2</li>
+							<li>BAI 3</li>
+							<li>BAI 4</li>
+							<li>BAI 5</li>
+							<li>BAI 6</li>
+						</ul>
+						 	</div>
+						 </div>
+				
+				</div>
+	</div>
+
+
+</b>
+
+
+<script type="text/javascript"  >
+	function cblog() {
+	 
+	alert("Tạo bài viết thành công!");
+
+	localStorage.setItem("tieude", document.getElementById("td").value);
+	localStorage.setItem("anh", document.getElementById("img").value);
+	localStorage.setItem("noidung", document.getElementById("nn").value);
+ 
+
+	window.open('blog.html','_blank');
+
+		// alert("Tạo bài viết thành công!");
+
+
+return false;
+
+}
+</script>
+</body>
+</html>
